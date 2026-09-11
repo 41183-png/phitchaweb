@@ -6,9 +6,9 @@
 <title>วิชาที่ชอบ</title>
 <style>
 :root{
-  --black:#D6336C;
-  --dark:#F5A623;
-  --mid:#F8BBD0;
+  --black:#ee80a7;
+  --dark:#ffbb72;
+  --mid:#f8f3bb;
   --light:#FFF0F5;
   --white:#ffffff;
   --bg:#FDF6F9;
@@ -16,7 +16,7 @@
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 body{
-  background:linear-gradient(var(--black),var(--light));
+  background:linear-gradient(rgb(172, 201, 255),var(--light));
   font-family:"TH Sarabun New","Sarabun",Tahoma,sans-serif;
   color:var(--text-dark);
   padding:30px 16px;
@@ -53,6 +53,8 @@ ul{
   width: 300px;
 }
 a{
+  color: white;
+  font-size: 30px;
   margin-top:5px ;
   border-radius: 5px;
 }
@@ -68,10 +70,9 @@ a:hover{
   background-color: #F5A623;
   color: #ffffff;
 }
-a:visited{
-    color:white;
-}
+
 .active{
+  color: white;
   background-color: var(--dark);
 }
 .lead{
